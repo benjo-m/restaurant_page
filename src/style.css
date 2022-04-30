@@ -1,5 +1,30 @@
-.colos {
-    width: 100px;
-    height: 100px;
-    background-color: pink;
+body {
+    margin: 0px 170px 0px 170px;
+}
+
+#container {
+    gap: 10px;
+    background-color: rgb(127, 208, 255);
+    height: 100vh;
+}
+
+#navbar {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    background-color: #ffc0cb;
+    font-size: 20px;
+}
+
+#tabHome:hover, #tabMenu:hover, #tabContact:hover {
+    background-color: #eea2af;
+    cursor: pointer;
+}
+
+#homeDiv, #menuDiv, #contactDiv {
+    position: relative;
+    background-color: rgb(218, 113, 113);
+    height: 96.5vh;
+    text-align: center;
+    font-size: 40px;
 }
